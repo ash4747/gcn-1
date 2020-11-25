@@ -4,7 +4,7 @@ from __future__ import print_function
 import time
 import tensorflow as tf
 import sys
-sys.path.append('content/gcn-1')
+sys.path.append('/content/gcn-1')
 from gcn.utils import *
 from gcn.models import GCN, MLP
 
