@@ -3,7 +3,8 @@ from __future__ import print_function
 
 import time
 import tensorflow as tf
-
+import sys
+sys.path.append('content/gcn')
 from gcn.utils import *
 from gcn.models import GCN, MLP
 
